@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake-Chris-Architect</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+    100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;
+    1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-------------- Heading ------------------>
+    <header>
+        <h2>Jake<br>&nbsp <span>&</span> <br>Chris</h2>
+        <ul id="menuList" class="hamburger">
+            <div class="close-bar">
+                <i class="fa-solid fa-xmark" onclick="cancelMenu()"></i>
+            </div>
+            <li><a id="home" href="index.html" target="_self">Home</a></li>
+            <li><a href="Portfolio.html" target="_self">Portfolio</a></li>
+            <li><a href="About.html" target="_self">About Us</a></li>
+            <li><a href="Contact.html" target="_blank">Contact Us</a></li>
+        </ul>
+        <div class="menu-bar">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </header>
+
+<!--------------------- Hero ----------------->
+ <div class="hero">
+    <img src="Home Imgs/hero-bg.jpg" alt="Balcony" >
+    <div class="hero-text">
+        <h1> JAKE & CHRIS <br> ARCHITECT</h1>
+        <p class="myP1">Creative. Sustainable. Beautiful.</p>
+        <p class="myP2">A firm belief in innovative and functional design that truly satisfies. <br>
+            We cater for Domestic & Commercial buildings, Units, Duplexes, Apartment, Mansions and more.
+        </p>
+    </div>
+ </div>
+
+ <!-------------- Featured-Projects ------------->
+ <section class="featured-projects">
+    <h2 class="left-appear">FEATURED PROJECT</h2>
+    <div class="project project-1 ">
+        <h3 class="appear">OAK <br> VILLA <br>ESTATE</h3>
+        <p class="appear">This building is a modern contemporary house with a minimalist architectural design. 
+            It features clean geometric lines, a combination of different textures 
+            (such as smooth concrete, glass, and wood/stone finishes), 
+            and an emphasis on open spaces with large windows for natural light. 
+            The driveway and landscaping also complement the modern aesthetic, making it a stylish 
+            and functional residence.</p>
+        <img src="Home Imgs/Oak villa.jpg" alt="villa" class="appear">
+    </div>
+
+    <div class="project project-2 ">
+        <p class="appear">This is a modern duplex mansion with a contemporary architectural design. 
+            It features a combination of large glass windows, a pitched roof, and 
+            a mix of textures like brick, smooth concrete, and decorative accents. 
+            The design includes spacious balconies, an elegant entrance, and 
+            a well-manicured lawn, giving it a luxurious and stylish appearance.</p>
+        <img src="Home Imgs/mansion.jpg" alt="mansion" class="appear">
+        <h3 class="appear">DUPLEX <br>MANSION, <br>LEGON</h3>
+    </div>
+
+    <div class="project project-3">
+        <h3 class="appear">MODERN <br>LUXURY <br>VILLA</h3>
+        <p class="appear">This is a modern luxury villa or contemporary house. It features a sleek, 
+            geometric design with extensive use of glass, wood, and concrete. 
+            The house includes a cantilevered balcony, stylish lighting, and 
+            a combination of natural and artificial elements, enhancing its aesthetic appeal. 
+            The presence of luxury cars further emphasizes its upscale nature.</p>
+        <img src="Home Imgs/apartment.jpg" alt="apartment" class="appear">
+    </div>
+
+    <a href="Portfolio.html" target="_self" class="appear">View All Projects</a>
+ </section>
+
+<!--------------- Background Project ----------------->
+ <section class="upper-view-bg "><img src="Home Imgs/view.jpg" alt=""></section>
+
+ <!--------------- Footer --------------->
+<footer>
+    <div class="footer-links ">
+    <div class="in-touch column ">
+        <h3>BE IN <br> TOUCH</h3>
+    </div>
+    <div class="quick-links column">
+        <h3>QUICK LINKS</h3>
+        <a id="home" href="index.html" target="_self">Home</a>
+        <a href="Portfolio.html" target="_self">Portfolio</a>
+        <a href="About.html" target="_self">About Us</a>
+    </div>
+    <div class="important-link column">
+        <h3>IMPORTANT LINK</h3>
+        <a href="Contact.html" target="_blank">Contact Us</a>
+    </div>
+</div>
+<div class="hr"></div>
+<div class="last">
+    <p class="copyright">Copyright &copy; 2025 | <span> Jake & Chris Architect</span></p>
+    <p class="design">Designed By  <span>Dev_Jake & Dev_Chris</span></p>
+</div>
+</footer>
+<script src="https://kit.fontawesome.com/2290258aa3.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
